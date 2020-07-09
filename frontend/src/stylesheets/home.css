@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icon {
+    height: 225px;
+}
+
+.header .welcome-text {
+    margin-right: 100px;
+    font-weight: bold;
+    color: #000;
+}
+
+.header .welcome-text-loggedin {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.header .dropdown-toggle {
+    margin-right: 100px;
+}
+
+.intro-learner, .intro-master {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.intro-learner {
+    height: 80vh;
+}
+
+.intro-master {
+    height: 100vh;
+}
+
+.content, .illus {
+    width: 50%;
+    text-align: center;
+}
+
+.illus .illus-img {
+    width: 80%;
+}
+
+.content {
+    padding: 80px;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.btn-start {
+    background-color: #1A535C;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.mobile-store {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-store-icons {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-store-icons .googleplaystore-icon {
+    height: 120px;
+}
+
+.mobile-store-icons .appstore-icon {
+    margin-right: 100px;
+    height: 80px;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-menu {
+    transform: translate3d(0px, 50px, 0px) !important;
+    border-radius: 0;
+    text-align: center;
+}
+
+.dropdown-item:active {
+    background-color: gray;
+}

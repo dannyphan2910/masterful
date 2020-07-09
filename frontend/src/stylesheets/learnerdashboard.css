@@ -1,0 +1,54 @@
+nav {
+    width: 25% !important;
+    background-color: #FFF;
+}
+
+.learner-dashboard {
+    height: 100vh;
+    overflow: auto;
+    width: 100vw;
+    background-color: #fffffc;
+}
+
+.icon img {
+    width: 100%;
+    min-width: 200px;
+    border-bottom: 8px #1A535C solid;
+}
+
+.user img {
+    width: 125px;
+}
+
+.course-card-deck {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.course-card {
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 7%;
+}
+
+.course-card-img-top {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+}
+
+.result-img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.learner-dashboard .search-bar {
+    height: 10%;
+}
+
+.learner-dashboard .courses {
+    height: 90%;
+}

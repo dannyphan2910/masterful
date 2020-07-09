@@ -1,0 +1,30 @@
+.master-dashboard {
+    height: 100vh;
+    overflow: auto;
+    width: 100vw;
+    background-color: #fffffc;
+}
+
+.master-dashboard .card {
+    color: #000;
+    width: 90%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.master-card img {
+    height: 100%;
+    width: 350px;
+    object-fit: cover;
+}
+
+.master-dashboard .btn-add-course {
+    background-color: #1A535C;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+}

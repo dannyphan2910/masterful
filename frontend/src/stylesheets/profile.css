@@ -1,0 +1,17 @@
+.profile-dashboard {
+    height: 100vh;
+    overflow: auto;
+    width: 100vw;
+    background-color: #fffffc;
+}
+
+.profile-dashboard .profile-header {
+    height: 35%;
+}
+
+.profile-dashboard .day-counter {
+    background-color: #2EC4B6;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+}
