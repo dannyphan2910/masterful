@@ -32,7 +32,7 @@ function LearnerDashboard() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }, []);
 
@@ -53,7 +53,7 @@ function LearnerDashboard() {
                     })
                     .catch(function (error) {
                         // handle error
-                        console.log(error);
+                         
                     });
             }
         } else {

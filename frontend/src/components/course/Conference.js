@@ -19,12 +19,12 @@ function Conference() {
         API.setNotLive(id)
             .then(function (response) {
                 // handle success
-                console.log(response);
+                 
                 setLeft(true);
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }
 
@@ -40,7 +40,7 @@ function Conference() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
 
         window.onpopstate = event => {
@@ -57,11 +57,11 @@ function Conference() {
                 API.setLive(id)
                 .then(function (response) {
                     // handle success
-                    console.log(response);
+                     
                 })
                 .catch(function (error) {
                     // handle error
-                    console.log(error);
+                     
                 });
             })
 

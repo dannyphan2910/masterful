@@ -16,11 +16,11 @@ function Lecture(props) {
             .then(function (response) {
                 // handle success
                 const data = response.data;
-                console.log(data);
+                 
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }
 

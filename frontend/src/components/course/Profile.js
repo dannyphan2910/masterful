@@ -28,7 +28,7 @@ function Profile() {
                 })
                 .catch(function (error) {
                     // handle error
-                    console.log(error);
+                     
                 });
         }
         async function getCourses() {
@@ -41,7 +41,7 @@ function Profile() {
                 })
                 .catch(function (error) {
                     // handle error
-                    console.log(error);
+                     
                     isError = true;
                 });
 
@@ -53,7 +53,7 @@ function Profile() {
                 })
                 .catch(function (error) {
                     // handle error
-                    console.log(error);
+                     
                     isError = true;
                 });
             return isError;

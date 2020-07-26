@@ -106,7 +106,7 @@ let data = [
 
 const currentDate = moment();
 let date = currentDate.date();
-console.log(date);
+ 
 
 const makeTodayAppointment = (startDate, endDate) => {
     const days = moment(startDate).diff(endDate, 'days');

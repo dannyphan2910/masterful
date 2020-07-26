@@ -1,0 +1,19 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="811" viewBox="0 0 375 811">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="207" height="130" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="275" height="206" transform="translate(100 605)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_38" data-name="Rectangle 38" width="375" height="811" fill="#fff"/>
+  <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="71.5" cy="71.5" r="71.5" transform="translate(64 -38)" fill="#f7fff7"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="90" cy="90" r="90" transform="translate(-61 -50)" fill="#2ec4b6"/>
+  </g>
+  <g id="Mask_Group_6" data-name="Mask Group 6" clip-path="url(#clip-path-2)">
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="91" cy="91" r="91" transform="translate(100 684)" fill="#f7fff7"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="162" cy="162" r="162" transform="translate(188 605)" fill="#1a535c"/>
+  </g>
+</svg>

@@ -6,7 +6,7 @@ import { AuthContext } from '../../context/auth';
 export default function CourseForm(props) {
     const { state } = useContext(AuthContext);
 
-    console.log(props.course);
+     
 
     const initialState = {
         title: props.course ? props.course.title : "",
@@ -31,7 +31,7 @@ export default function CourseForm(props) {
             API.editCourse(props.course._id, data)
                 .then(function (response) {
                     // handle success
-                    console.log(response.data);
+                     
                 })
                 .catch(function (error) {
                     // handle error
@@ -41,7 +41,7 @@ export default function CourseForm(props) {
             API.createCourse(state.user._id, data)
                 .then(function (response) {
                     // handle success
-                    console.log(response.data);
+                     
                 })
                 .catch(function (error) {
                     // handle error

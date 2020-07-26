@@ -61,7 +61,7 @@ function Home() {
 
 function Header() {
     const { state, dispatch } = useContext(AuthContext);
-    console.log(state);
+     
 
     const logOut = function() {
         dispatch({ type: "LOGOUT" }); 

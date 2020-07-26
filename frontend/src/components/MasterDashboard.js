@@ -59,7 +59,7 @@ function MasterDashboard() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }, [loading]);
 
@@ -114,7 +114,7 @@ function Schedule(props) {
     const shadePreviousAppointments = true;
     const updateInterval = 1000;
 
-    console.log(props.schedule);
+     
     return (
         <div className="shadow-lg">
         <Paper>

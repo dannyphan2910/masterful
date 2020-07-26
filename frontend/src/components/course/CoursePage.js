@@ -24,13 +24,13 @@ function CoursePage() {
             .then(function (response) {
                 // handle success
                 const data = response.data;
-                console.log(data);
+                 
                 setCourse(data);
                 setLoading(false);
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }, [course._id, loading]);
 
@@ -55,7 +55,7 @@ function CoursePage() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }
 
@@ -66,7 +66,7 @@ function CoursePage() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }
 
@@ -77,7 +77,7 @@ function CoursePage() {
             })
             .catch(function (error) {
                 // handle error
-                console.log(error);
+                 
             });
     }
 
@@ -88,7 +88,7 @@ function CoursePage() {
         })
         .catch(function (error) {
             // handle error
-            console.log(error);
+             
         });
     }
 

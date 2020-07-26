@@ -48,7 +48,7 @@ function LectureForm(props) {
             API.editLecture(props.lecture._id, data)
                 .then(function (response) {
                     // handle success
-                    console.log(response.data);
+                     
                 })
                 .catch(function (error) {
                     // handle error
@@ -58,7 +58,7 @@ function LectureForm(props) {
             API.createLecture(props.course._id, data)
                 .then(function (response) {
                     // handle success
-                    console.log(response.data);
+                     
                 })
                 .catch(function (error) {
                     // handle error
